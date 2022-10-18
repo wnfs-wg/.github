@@ -36,8 +36,8 @@ Please see the [official spec][spec] or [specs](#specs) for more detail.
 
 ## Discussions & Community
 
-- For live chat, join the `#wnfs` channel in the [IPFS discord](https://discord.gg/vj7qWuAyHY)
-- For ideas & use cases, feel free to use this repo's [github discussions](https://github.com/wnfs-wg/spec/discussions/2)
+- For live chat, join the `#wnfs` channel in the [IPFS discord][discord].
+- For ideas & use cases, feel free to use this repo's [github discussions][discussions].
 
 ## External Resources
 
@@ -47,9 +47,10 @@ have questions.
 
 ### Presentations
 
-- [A Distributed File System for Secure P2P Applications](https://www.youtube.com/watch?v=-f4cH_HQU4U) by Brooklyn Zelenka (Strange Loop 2022)
-- [WebNative File System](https://www.youtube.com/watch?v=3se17NAS-Lw) by Brooklyn Zelenka (IPFS bing 2022)
-- [Shared Private Files Design in Webnative's WNFS](https://vimeo.com/534517727) by Brooklyn Zelenka
+- [A Distributed File System for Secure P2P Applications][dist-p2p-vid-sl] by Brooklyn Zelenka (Strange Loop 2022)
+- [The Skip Ratchet][skip-vid-sl] by Brooklyn Zelenka (Strange Loop 2022)
+- [WebNative File System][wnfs-ipfs-bing-vid] by Brooklyn Zelenka (IPFS bing 2022)
+- [Shared Private Files Design in Webnative's WNFS][shared-private-vid] by Brooklyn Zelenka
 
 ### Related Skip-Ratchet Implementations
 
@@ -62,15 +63,21 @@ have questions.
 - [Skip Ratchet: A Hierarchical Hash System][paper] by Brooklyn Zelenka
 
 
-[wnfs-go]: https://github.com/wnfs-wg/wnfs-go
+[discord]: https://discord.gg/vj7qWuAyHY
+[discussions]: https://github.com/wnfs-wg/spec/discussions/2
+[dist-p2p-vid-sl]: https://www.youtube.com/watch?v=-f4cH_HQU4U
 [paper]: https://eprint.iacr.org/2022/1078.pdf
 [public-wnfs]: https://github.com/wnfs-wg/spec/blob/main/spec/public-wnfs.md
 [private-wnfs]: https://github.com/wnfs-wg/spec/blob/main/spec/private-wnfs.md
 [namefilters]: https://github.com/wnfs-wg/spec/blob/main/spec/namefilter.md
+[shared-private-vid]: https://vimeo.com/534517727
 [skip-ratchet]: https://github.com/wnfs-wg/spec/blob/main/spec/skip-ratchet.md
 [spec]: https://github.com/wnfs-wg/spec
 [skip-go]: https://github.com/wnfs-wg/wnfs-go
 [skip-rust]: https://github.com/wnfs-wg/rs-skip-ratchet
 [skip-ts]: https://github.com/fission-suite/webnative/blob/matheus23/wnfs2/src/fs/data/private/spiralratchet.ts
+[skip-vid-sl]: https://www.youtube.com/watch?v=3UjQd-JnMrQ
+[wnfs-go]: https://github.com/wnfs-wg/wnfs-go
 [wnfs-rust]: https://github.com/wnfs-wg/rs-wnfs
 [wnfs-ts]: https://github.com/fission-codes/webnative/blob/main/README.md#web-native-file-system
+[wnfs-ipfs-bing-vid]: https://www.youtube.com/watch?v=3se17NAS-Lw
