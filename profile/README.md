@@ -1,6 +1,6 @@
-# Welcome to the WebNative Filesystem (WNFS) Working Group
+# Welcome to the Webnative Filesystem (WNFS) Working Group
 
-The Web Native File System (WNFS) is a distributed file system. It is versioned,
+The Webnative File System (WNFS) is a distributed file system. It is versioned,
 logged, programmable, has strong-yet-flexible security, and is fully controlled
 by the end user. Service providers can validate writes without reading the
 contents of the file system, and minimal metadata is leaked.
